@@ -1,8 +1,26 @@
 - var pageTitle = page.title || config.subtitle || ''
+- var pagePermalink = page.permalink || 'https://this.rivki.id'
+- var pageDescription = strip_html(page.excerpt) || 'Muhammad Rivki, a Frontend Engineer from Jakarta, Indonesia. who loves simplicity, create great looking web products and performance first.'
 
 meta(charset='UTF-8')
 meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
 meta(name='viewport', content='width=device-width, initial-scale=1')
+meta(data-n-head="true" content=pageTitle name="application-name")
+meta(data-n-head="true" content=pageDescription name="description" data-hid="description")
+meta(data-n-head="true" content=pageTitle property="og:title")
+meta(data-n-head="true" content=pagePermalink property="og:url")
+meta(data-n-head="true" content=pageDescription property="og:descrition")
+<meta data-n-head="true" content="website" property="og:type">
+<meta data-n-head="true" content="Muhammad Rivki - Frontend Engineer | Jakarta, Indonesia" property="og:site_name">
+<meta data-n-head="true" content="summary_large_image" property="twitter:card">
+<meta data-n-head="true" content="@__mikqi" property="twitter:site">
+<meta data-n-head="true" content="@__mikqi" property="twitter:creator">
+meta(data-n-head="true" content=pageTitle property="twitter:title")
+meta(data-n-head="true" content=pageDescription property="twitter:description")
+meta(data-n-head="true" href=pagePermalink hreflang="en-ID" rel="alternate")
+<meta data-n-head="true" content="yes" name="mobile-web-app-capable">
+<meta data-n-head="true" content="default" name="apple-mobile-web-app-status-bar-style">
+<meta data-n-head="true" content="#2199e8" name="theme-color">
 if theme.google_site_verification
     meta(name='google-site-verification' content=theme.google_site_verification)
 title= pageTitle
