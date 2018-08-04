@@ -1,20 +1,23 @@
----
 title: Hello From Static Blog
 tags:
   - JavaScript
   - NodeJS
   - Share
+date: 2018-08-04 23:17:40
 ---
-
-Welcome this is my first post just try to fix some typografi style on blog content
+This is my first post on my personal blogs and this is my 5th i made blog in different type. I hope this is my last blogging platform and i stick to this platform.
 
 <!-- more -->
 
 ![Joker](https://i.giphy.com/xT9GEN48ygdJFm2Yh2.gif)
-This is my first post on my personal blogs. In this post, i will give you know about this site stack or something else.
-This site built with this stack
+
+# Intro
+
+In this post, i will give you know about this site stack. From `this.rivki.id` and `blog.rivki.id`. So lets begin now.
+
 
 # Frontend
+
 * [React](https://facebook.github.io/react) - view for this webapp
 * [React Router](https://github.com/reactjs/react-router) - route handler
 * [Axios](https://github.com/mzabriskie/axios) - http request
